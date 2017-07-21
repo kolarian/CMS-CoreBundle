@@ -1,0 +1,6 @@
+te_core:
+    access_denied_exception: Nie masz dostępu do tej części aplikacji
+    cookies:
+        text: Strona korzysta z plików cookie w celu realizacji usług zgodnie z Polityką dotyczącą cookies. Możesz określić warunki przechowywania lub dostępu do cookie w Twojej przeglądarce.
+        accept: Akceptuję
+        no_accept: Nie akceptuję

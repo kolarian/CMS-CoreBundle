@@ -1,0 +1,11 @@
+{% if not app.request.cookies.get('accept_cookies') %}
+    <div id="cookies">
+        <div class="container">
+            <p class="text-center">{{ "te_core.cookies.text"|trans }}</p>
+            <div class="text-center">
+                <button id="cookies_accept"
+                        class="btn btn-primary">{{ "te_core.cookies.accept"|trans }}</button>
+            </div>
+        </div>
+    </div>
+{% endif %}

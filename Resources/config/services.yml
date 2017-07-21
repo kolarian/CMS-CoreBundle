@@ -1,0 +1,4 @@
+services:
+#    twin_elements_core.example:
+#        class: TwinElements\CoreBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
