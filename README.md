@@ -1,7 +1,7 @@
 Sortable bundle
 =======================
 
-Symfony 3 Sortable bundle for CMS JELLINEK
+Symfony 3 Core bundle for CMS JELLINEK
 
 1. Download this bundle to your project first. The preferred way to do it is
     to use [Composer](https://getcomposer.org/) package manager:
@@ -12,7 +12,7 @@ Symfony 3 Sortable bundle for CMS JELLINEK
     
     > **NOTE:** If you haven't installed `Composer` yet, check the [installation guide][2].
 
-    > **NOTE:** If you're not using `Composer`, add the `SortableBundle` to your autoloader manually. 
+    > **NOTE:** If you're not using `Composer`, add the `CoreBundle` to your autoloader manually. 
 
 2. Add this bundle to your application's kernel:
     
@@ -27,9 +27,17 @@ Symfony 3 Sortable bundle for CMS JELLINEK
         );
     }
     ```
-
+3. Add to routing.yml
+    ```$xslt
+    twin_elements_core:
+        resource: "@TwinElementsCoreBundle/Controller/"
+        prefix:   /
+    ```
     
 Usage
 =====
     
-...   
+To include cookies 
+```
+{% include '@TwinElementsCore/cookies/cookies.html.twig' %}
+```
