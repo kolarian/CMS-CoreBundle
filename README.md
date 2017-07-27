@@ -37,7 +37,16 @@ Symfony 3 Core bundle for CMS JELLINEK
 Usage
 =====
     
+Add    ```styles```  to stylesheets
+
+Add ```javascripts```
+
 To include cookies 
 ```
 {% include '@TwinElementsCore/cookies/cookies.html.twig' %}
+```
+
+To include push-alerts
+```
+{% include '@TwinElementsCore/alerts/alerts.html.twig' %}
 ```
