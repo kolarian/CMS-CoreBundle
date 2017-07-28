@@ -37,7 +37,7 @@ Symfony 3 Core bundle for CMS JELLINEK
 Usage
 =====
     
-Add    ```styles```  to stylesheets
+Add    ```.scss``` files to main ```style.scss```
 
 Add ```javascripts```
 

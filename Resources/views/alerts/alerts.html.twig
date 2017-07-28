@@ -1,12 +1,14 @@
 <div id="alerts-container">
     {% for flashMessage in app.session.flashbag.get('notice') %}
-        <div class="alert alert-success">
-            {{ flashMessage }}
-        </div>
+            <div class="alert alert-success alert-fixed">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                {{ flashMessage }}
+            </div>
     {% endfor %}
     {% for flashMessage in app.session.flashbag.get('error') %}
-        <div class="alert alert-danger">
-            {{ flashMessage }}
-        </div>
+            <div class="alert alert-danger alert-fixed">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                {{ flashMessage }}
+            </div>
     {% endfor %}
 </div>
